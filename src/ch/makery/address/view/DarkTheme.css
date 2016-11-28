@@ -12,7 +12,7 @@
 .label-bright {
     -fx-font-size: 11pt;
     -fx-font-family: "Segoe UI Semibold";
-    -fx-text-fill: white;
+    -fx-text-fill: 	#efd004;
     -fx-opacity: 1;
 }
 
@@ -70,17 +70,17 @@
 }
 
 .menu-bar {
-    -fx-background-color: derive(#1d1d1d,20%);
+    -fx-background-color: 	#c8e75e;
 }
 
 .context-menu {
-    -fx-background-color: derive(#1d1d1d,50%);
+    -fx-background-color: 	#c8e75e;
 }
 
 .menu-bar .label {
     -fx-font-size: 14pt;
     -fx-font-family: "Segoe UI Light";
-    -fx-text-fill: white;
+    -fx-text-fill: 	#222618;
     -fx-opacity: 0.9;
 }
 
@@ -98,8 +98,7 @@
  * Author: Pedro Duque Vieira
  * http://pixelduke.wordpress.com/2012/10/23/jmetro-windows-8-controls-on-java/
  */
-.button {
-    -fx-padding: 5 22 5 22;   
+.button {  
     -fx-border-color: #e2e2e2;
     -fx-border-width: 2;
     -fx-background-radius: 0;
@@ -108,6 +107,7 @@
     -fx-font-size: 11pt;
     -fx-text-fill: #d8d8d8;
     -fx-background-insets: 0 0 0 0, 0, 1, 2;
+    
 }
 
 .button:hover {

@@ -90,7 +90,7 @@ public class MainApp extends Application {
             rootLayout = (BorderPane) loader.load();
 
             // Show the scene containing the root layout.
-            Scene scene = new Scene(rootLayout);
+            Scene scene = new Scene(rootLayout, 1000, 600);
             primaryStage.setScene(scene);
 
             // Give the controller access to the main app.
