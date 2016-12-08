@@ -67,16 +67,17 @@ public class MainApp extends Application {
     @Override
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
-        this.primaryStage.setTitle("AddressApp");
+        this.primaryStage.setTitle("AddressAppBros");
         
         // Set the application icon.
-        this.primaryStage.getIcons().add(new Image("file:resources/images/sharingan.png"));
+        this.primaryStage.getIcons().add(new Image("file:resources/images/seta.png"));
 
         initRootLayout();
 
         showPersonOverview();
     }
 
+    
     /**
      * Initializes the root layout and tries to load the last opened
      * person file.
@@ -268,5 +269,7 @@ public class MainApp extends Application {
                     .showException(e);
         }
     }
+    
+    
 }
 
